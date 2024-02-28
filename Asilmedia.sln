@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{839C78B1-2C9F-4734-8331-855B2BF7987A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E1C41FD2-739C-4038-80AA-B0FF6C6E9E1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{24A38E86-33AA-4949-B512-206323B4F02E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asilmedia.Domain", "Asilmedia.Domain\Asilmedia.Domain.csproj", "{73818D60-2939-4450-BEFF-DA6DABE49EBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73818D60-2939-4450-BEFF-DA6DABE49EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73818D60-2939-4450-BEFF-DA6DABE49EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73818D60-2939-4450-BEFF-DA6DABE49EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73818D60-2939-4450-BEFF-DA6DABE49EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1C41FD2-739C-4038-80AA-B0FF6C6E9E1D} = {839C78B1-2C9F-4734-8331-855B2BF7987A}
+		{24A38E86-33AA-4949-B512-206323B4F02E} = {839C78B1-2C9F-4734-8331-855B2BF7987A}
+		{73818D60-2939-4450-BEFF-DA6DABE49EBD} = {E1C41FD2-739C-4038-80AA-B0FF6C6E9E1D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F8791F5-50B7-49D2-A865-9FE5C3B1C631}
+	EndGlobalSection
+EndGlobal
